@@ -35,7 +35,8 @@ This project demonstrates my **first AWS architecture setup** where I built a se
 - `README.md` – Project documentation (this file)  
 - `architecture-diagram.png` – Visual diagram of the architecture (add your diagram here)  
 - `notes.md` – Step-by-step notes of the setup process  
-- `screenshots/` – Screenshots of CLI outputs and successful connections  
+- `screenshots/` – Screenshots of CLI outputs and successful connections
+- `diagrams/` – Diagram of AWS Architecture  
 
 ---
 
