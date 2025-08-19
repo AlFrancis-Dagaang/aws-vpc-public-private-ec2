@@ -1,0 +1,15 @@
+# AWS Architecture Setup
+
+1. Created VPC with one public subnet and one private subnet
+2. Attached Internet Gateway to the VPC
+3. Created NAT Gateway in public subnet for private EC2 outbound internet
+4. Launched Public EC2 instance:
+   - Assigned public IP
+   - Security Group: SSH from my IP, HTTP from anywhere
+5. Launched Private EC2 instance:
+   - No public IP
+   - Security Group: SSH only from Public EC2
+6. Copied private key to Public EC2 to SSH into Private EC2
+7. Verified connectivity:
+   - Public EC2 can reach Private EC2
+   - Private EC2 can access internet through NAT Gateway
